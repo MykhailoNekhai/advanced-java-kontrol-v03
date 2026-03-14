@@ -7,6 +7,6 @@ public class Main {
         OrderItem iphone = new OrderItem(123, "Iphone", new Money(1400));
         OrderItem macbook = new OrderItem(3333, "AIR15", new Money(2400));
 
-        new Order(1,new Customer("Misha","m@ukr.net"),new OrderItem[]{iphone,macbook});
+        new Order(1, new Customer("Misha", new Email("example@gmail.com")), new OrderItem[]{iphone, macbook});
     }
 }
