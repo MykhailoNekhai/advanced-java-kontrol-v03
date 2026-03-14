@@ -22,5 +22,6 @@ public class CardPayment implements PaymentMethod {
     public String getName() {
 
 
+        return "";
     }
 }
